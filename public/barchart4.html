@@ -1,0 +1,75 @@
+<!-- 
+D3 VERSION:  4
+CODE SOURCE:  https://bl.ocks.org/mbostock/3885304
+RENDERING:  SVG 
+RESPONSIVE: yes (width and height)
+RESPONSIVE HELP:  https://gist.github.com/tpitale/98a616245501bd0a5e89
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>D3 V4 RESPONSIVE BAR CHART USING SVG</title>
+  
+<!-- <script src="http://d3js.org/d3.v4.0.0-alpha.4.min.js"></script>
+ -->
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script>
+ -->
+<script src="http://d3js.org/d3.v3.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+<style>
+    .bar{
+        fill: steelblue;
+    }
+    .bar:hover{
+        fill: brown;
+    }
+    .axis {
+        font: 10px sans-serif;
+    }
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .axis--x path {
+        display: none;
+    }
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+</style>
+
+<!-- <svg width="960" height="500"></svg>
+ -->
+
+<!--  <svg></svg>
+ -->
+<div id="viz1"></div>
+
+<div id="viz2"></div>
+
+<div id="viz3"></div>
+
+<div id="viz4"></div>
+
+
+<script type="text/javascript" src="./data/app.js"></script>
+
+
+
+
+</body>
+</html>
